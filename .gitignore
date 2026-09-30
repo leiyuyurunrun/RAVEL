@@ -1,0 +1,70 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local data, downloaded evidence, experiment outputs
+data/
+evotx/data/cache/
+evotx/logs/
+htmls/
+*.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+reminder.md
+contract_downloader.py
+read_function_chunk.py
+
+# Public documentation is kept at the repository root.
+# Ignore root-level working notes and historical readmes.
+/*.md
+!/README.md
+
+# Local notes, probes, temporary outputs, and auxiliary workspaces
+/md/
+/md&output_contrast/
+/quick/
+/tests/
+/transfer/
+/output/
+/output-1/
+/probe_agent_format-latency/
+/glm_effort_probe_*/
+/llm_latency_results/
+
+# Keep only the active v6 PowerShell pipeline and shared exporters.
+# Historical/experimental ps/* folders are local-only by default.
+/ps/*
+!/ps/v6/
+!/ps/v6/**
+!/ps/export/
+!/ps/export/**

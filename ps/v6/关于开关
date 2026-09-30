@@ -1,0 +1,10 @@
+| 攻击类型 | 开关 | 可选值/默认值 | 作用 |
+|---|---|---|---|
+| Access Control | `AccessControlBindingMode` | `prompt / stateful`，默认 `stateful` | 是否强制 C1/C2/C3 使用同一授权对象、能力和受保护资源链 |
+| Insufficient Validation | `EnableIvStatefulRuntime` | 默认 `$true` | C1 产生对象候选，C2 绑定验证缺口，C3 绑定同一对象的后果 |
+| Reentrancy | `ReentrancyBindingMode` | `disabled / soft / stateful`，默认 `soft` | 控制重入候选在条件间的传递和约束强度 |
+| Flashloans | 暂无独立开关 | 自动启用 | 自动绑定同一个临时资本候选、利用机制和结果 |
+| Market Manipulation | 暂无独立开关 | 自动启用 | 自动绑定同一个市场机制 profile |
+| Protocol Accounting | 暂无独立开关 | 自动启用 | 自动绑定同一个 bookkeeping candidate |
+| Token Semantic | 暂无独立开关 | 自动启用 | 自动绑定同一个 token semantic candidate |
+| Price Manipulation | 暂无专属 stateful 开关 | 无 | 使用普通 Rule/Plan 条件和 followup |

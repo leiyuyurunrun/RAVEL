@@ -1,0 +1,17 @@
+llm:
+  model: glm-5.1
+  temperature: 0.0
+
+runtime:
+  uncertain_on_error: true
+  save_traces: true
+  save_results: true
+
+planner:
+  allow_fallback: true
+
+storage:
+  rules_dir: data/rules
+  traces_dir: data/traces
+  plans_dir: data/plans
+  results_dir: data/results

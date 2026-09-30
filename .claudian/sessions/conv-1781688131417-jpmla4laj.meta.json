@@ -1,0 +1,24 @@
+{
+  "id": "conv-1781688131417-jpmla4laj",
+  "providerId": "claude",
+  "title": "1",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1781688131425,
+  "updatedAt": 1781689313171,
+  "lastResponseAt": 1781689313171,
+  "sessionId": "88492377-5b60-4991-933d-d640d00a3afe",
+  "providerState": {
+    "providerSessionId": "88492377-5b60-4991-933d-d640d00a3afe"
+  },
+  "currentNote": "2026-06-17.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
