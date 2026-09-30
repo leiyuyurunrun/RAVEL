@@ -1,6 +1,6 @@
-# EvoTx
+# RAVEL
 
-EvoTx is a transaction-level framework for detecting and improving smart-contract attack classifiers. It combines structured evidence packets, rule/plan based judging, and a few-shot evolution loop that learns from false positives, false negatives, and uncertain cases.
+RAVEL is a transaction-level framework for detecting and improving smart-contract attack classifiers. It combines structured evidence packets, rule/plan based judging, and a few-shot evolution loop that learns from false positives, false negatives, and uncertain cases.
 
 The project is organized around a simple contract:
 
@@ -99,7 +99,7 @@ ETHERSCAN_PROXY_URL=...
 SOURCE_CODE_PROXY_URL=...
 
 # Optional defaults
-EVOTX_LLM_PROVIDER=glm-en
+LLM_PROVIDER=glm-en
 LLM_PROVIDER=glm-en
 API_TIMEOUT_MS=600000
 ```
